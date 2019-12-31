@@ -1,0 +1,7 @@
+#install django command:
+pip install django
+#create new project:
+django-admin startproject project_name
+#run server:
+cd project_name
+python manage.py runserver
