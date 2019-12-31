@@ -1,7 +1,22 @@
 #install django command:
 pip install django
+
 #create new project:
 django-admin startproject project_name
+
 #run server:
 cd project_name
 python manage.py runserver
+
+#migrate project
+python manage.py migrate
+
+#create superuser
+python manage.py createsuperuser
+
+
+This project:
+username = akash
+password = root
+email = mrmezan06@gmail.com
+
