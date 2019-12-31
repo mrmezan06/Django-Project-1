@@ -20,3 +20,6 @@ username = akash
 password = root
 email = mrmezan06@gmail.com
 
+#create app
+python manage.py startapp App_Name
+
